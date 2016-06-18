@@ -10,5 +10,8 @@
   ],
   "javascript": [
     "/app_plugins/BootstrapAccordion/bs_accordion.controller.js"
+  ],
+  "css": [
+    "bs_accordion.css"
   ]
 }
