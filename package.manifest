@@ -1,0 +1,14 @@
+﻿{
+  "gridEditors": [
+    {
+      "name": "Bootstrap Accordion",
+      "alias": "bs_accordion",
+      "view": "/app_plugins/BootstrapAccordion/bs_accordion.html",
+      "render": "/app_plugins/BootstrapAccordion/bs_accordion.cshtml",
+      "icon": "icon-code"
+    }
+  ],
+  "javascript": [
+    "/app_plugins/BootstrapAccordion/bs_accordion.controller.js"
+  ]
+}

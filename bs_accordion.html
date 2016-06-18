@@ -1,0 +1,59 @@
+<div class="bs-accordion">
+    <div ng-controller="bs_accordion.controller">
+        <div class="bg-accordion-header">
+            <textarea rows="1"
+                      umb-auto-resize
+                      umb-auto-focus
+                      class="textstring input-block-level" id="{{control.uniqueId}}_header"
+                      ng-model="control.header"
+                      ng-attr-style="{{control.editor.config.style}}" placeholder="Accordion header text"></textarea>
+        </div>
+        <div class="bs-accordion-body">
+            <div ng-controller="Umbraco.PropertyEditors.Grid.RichTextEditorController as vm">
+                <div grid-rte
+                     configuration="model.config.rte"
+                     value="control.body"
+                     unique-id="control.$uniqueId"
+                     on-link-picker-click="vm.openLinkPicker"
+                     on-media-picker-click="vm.openMediaPicker"
+                     on-embed-click="vm.openEmbed"
+                     on-macro-picker-click="vm.openMacroPicker"
+                     >
+                </div>
+
+                <umb-overlay ng-if="vm.linkPickerOverlay.show"
+                             model="vm.linkPickerOverlay"
+                             position="right"
+                             view="vm.linkPickerOverlay.view">
+                </umb-overlay>
+
+                <umb-overlay ng-if="vm.mediaPickerOverlay.show"
+                             model="vm.mediaPickerOverlay"
+                             position="right"
+                             view="vm.mediaPickerOverlay.view">
+                </umb-overlay>
+
+                <umb-overlay ng-if="vm.embedOverlay.show"
+                             model="vm.embedOverlay"
+                             position="right"
+                             view="vm.embedOverlay.view">
+                </umb-overlay>
+
+                <umb-overlay ng-if="vm.macroPickerOverlay.show"
+                             model="vm.macroPickerOverlay"
+                             view="vm.macroPickerOverlay.view"
+                             position="right">
+                </umb-overlay>
+
+            </div>
+        </div>
+        <div class="bg-accordion-footer">
+            <textarea rows="1"
+                      umb-auto-resize
+                      umb-auto-focus
+                      class="textstring input-block-level" id="{{control.uniqueId}}_footer"
+                      ng-model="control.footer"
+                      ng-attr-style="{{control.editor.config.style}}" placeholder="Accordion footer text"></textarea>
+        </div>
+    </div>
+</div>
