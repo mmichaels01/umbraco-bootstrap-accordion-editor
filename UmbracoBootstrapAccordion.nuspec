@@ -12,7 +12,6 @@
         <summary>Bootstrap 3 Accordion Plugin for Umbraco Grid Editor.</summary>
         <releaseNotes>Initial version</releaseNotes>
         <copyright>2016</copyright>
-        <serviceable>false</serviceable>
         <dependencies>
             <dependency id="UmbracoCms" version="7.4.0" />
         </dependencies>
