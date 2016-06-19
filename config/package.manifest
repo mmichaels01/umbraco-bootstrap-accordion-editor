@@ -3,15 +3,15 @@
     {
       "name": "Bootstrap Accordion",
       "alias": "bs_accordion",
-      "view": "/app_plugins/BootstrapAccordion/bs_accordion.html",
-      "render": "/app_plugins/BootstrapAccordion/bs_accordion.cshtml",
+      "view": "/app_plugins/UmbracoBootstrapAccordion/views/bs_accordion.html",
+      "render": "/app_plugins/UmbracoBootstrapAccordion/views/bs_accordion.cshtml",
       "icon": "icon-code"
     }
   ],
   "javascript": [
-    "/app_plugins/BootstrapAccordion/bs_accordion.controller.js"
+    "/app_plugins/UmbracoBootstrapAccordion/js/bs_accordion.controller.js"
   ],
   "css": [
-    "/app_plugins/BootstrapAccordion/bs_accordion.css"
+    "/app_plugins/UmbracoBootstrapAccordion/css/bs_accordion.css"
   ]
 }
