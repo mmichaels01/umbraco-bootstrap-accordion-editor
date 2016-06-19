@@ -3,7 +3,7 @@
     <metadata>
         <id>UmbracoBootstrapAccordion</id>
         <title>Umbraco Bootstrap Accordion</title>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <authors>mmichaels1010@gmail.com</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>
@@ -21,10 +21,10 @@
         </dependencies>
     </metadata>
 	<files>
-        <file src="bs_accordion.controller.js" target="App_Plugins\BootstrapAccordion\bs_accordion.controller.js" />
-        <file src="bs_accordion.cshtml" target="App_Plugins\BootstrapAccordion\bs_accordion.cshtml" />
-		<file src="bs_accordion.css" target="App_Plugins\BootstrapAccordion\bs_accordion.css" />
-        <file src="bs_accordion.html" target="App_Plugins\BootstrapAccordion\bs_accordion.html" />
-        <file src="package.manifest" target="App_Plugins\BootstrapAccordion\package.manifest" />
+        <file src="bs_accordion.controller.js" target="Content\App_Plugins\BootstrapAccordion\bs_accordion.controller.js" />
+        <file src="bs_accordion.cshtml" target="Content\App_Plugins\BootstrapAccordion\bs_accordion.cshtml" />
+		<file src="bs_accordion.css" target="Content\App_Plugins\BootstrapAccordion\bs_accordion.css" />
+        <file src="bs_accordion.html" target="Content\App_Plugins\BootstrapAccordion\bs_accordion.html" />
+        <file src="package.manifest" target="Content\App_Plugins\BootstrapAccordion\package.manifest" />
     </files>
 </package>
