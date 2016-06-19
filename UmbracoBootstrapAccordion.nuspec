@@ -4,6 +4,7 @@
         <id>UmbracoBootstrapAccordion</id>
         <version>1.0.0</version>
         <authors>mmichaels1010@gmail.com</authors>
+        <licenseUrl>MIT</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>
 		Editor for Umbraco grid that allows for easy creation of bootstrap callapsible panels / accordions. To work correctly, this plugin requires bootstrap 3 CSS/JS to be loaded into the view being rendered.
@@ -12,6 +13,8 @@
         <summary>Bootstrap 3 Accordion Plugin for Umbraco Grid Editor.</summary>
         <releaseNotes>Initial version</releaseNotes>
         <copyright>2016</copyright>
+        <projectUrl>https://github.com/mmichaels01/umbraco-bootstrap-accordion-editor</projectUrl>
+        <tags>Umbraco UmbracoCms Bootstrap Accordion Grid Editor</tags>
         <dependencies>
             <dependency id="UmbracoCms" version="7.4.0" />
         </dependencies>
