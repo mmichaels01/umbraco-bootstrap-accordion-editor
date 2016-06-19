@@ -12,6 +12,7 @@
         <summary>Bootstrap 3 Accordion Plugin for Umbraco Grid Editor.</summary>
         <releaseNotes>Initial version</releaseNotes>
         <copyright>2016</copyright>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/mmichaels01/umbraco-bootstrap-accordion-editor</projectUrl>
         <tags>Umbraco UmbracoCms Bootstrap Accordion Grid Editor</tags>
         <dependencies>
