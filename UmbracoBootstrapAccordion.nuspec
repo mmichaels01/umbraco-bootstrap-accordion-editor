@@ -2,6 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>UmbracoBootstrapAccordion</id>
+        <title>Umbraco Bootstrap Accordion</title>
         <version>1.0.0</version>
         <authors>mmichaels1010@gmail.com</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
