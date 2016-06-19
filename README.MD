@@ -1,0 +1,2 @@
+Umbraco Bootstrap Accordion Editor
+========
