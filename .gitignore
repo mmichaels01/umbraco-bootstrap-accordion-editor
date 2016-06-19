@@ -1,1 +1,4 @@
-*.nupkg
+node_modules
+dist
+tmp
+pkg
