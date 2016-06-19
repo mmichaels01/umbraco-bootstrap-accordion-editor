@@ -20,7 +20,7 @@
             <dependency id="UmbracoCms" version="7.4.0" />
         </dependencies>
         <contentFiles>
-            <files include="**/*.*" copyToOutput="true" />
+            <files include="contentFiles/any/any/App_Plugins/BootstrapAccordion/*" buildAction="none" copyToOutput="true" />
         </contentFiles>
     </metadata>
 	<files>
