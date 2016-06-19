@@ -5,7 +5,7 @@
       "alias": "bs_accordion",
       "view": "/app_plugins/UmbracoBootstrapAccordion/views/bs_accordion.html",
       "render": "/app_plugins/UmbracoBootstrapAccordion/views/bs_accordion.cshtml",
-      "icon": "icon-code"
+      "icon": "icon-multiple-windows"
     }
   ],
   "javascript": [
