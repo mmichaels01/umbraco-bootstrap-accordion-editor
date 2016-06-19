@@ -1,4 +1,5 @@
-﻿.bs-accordion { }
-.bs-accordion-header { }
-.bs-accordion-body { }
-.bs-accordion-footer { }
+﻿.bs-accordion{ padding: 0;border: 1px solid #2e8aea}
+.bs-accordion .umb-control-bar.bs-accordion-plugin-header{height: 25px;    cursor: move;    opacity: 1;}
+.umb-grid .umb-control.-active .bs-accordion {padding: 15px 0 0 0 0; border: 0;}
+.umb-grid .umb-control.-active .bs-accordion .umb-control{border:1px solid #2e8aea;margin-top: 15px;}
+.umb-grid .umb-control.-active .bs-accordion .bs-accordion-plugin-header.umb-control-bar{display:none;}

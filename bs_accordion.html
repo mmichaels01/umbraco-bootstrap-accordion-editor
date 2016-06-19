@@ -1,24 +1,33 @@
 <div class="bs-accordion">
+    <div class="bs-accordion-plugin-header umb-grid umb-control-bar">
+        {{control.PluginHeader}}
+    </div>
     <div ng-controller="bs_accordion.controller">
-        <div class="bg-accordion-header">
+        <div class="bs-accordion-header umb-grid umb-control">
+            <div class="bs-accordion-header-header umb-grid umb-control-bar">
+                Accordion Header
+            </div>
             <textarea rows="1"
                       umb-auto-resize
                       umb-auto-focus
                       class="textstring input-block-level" id="{{control.uniqueId}}_header"
-                      ng-model="control.header"
+                      ng-model="control.Header"
                       ng-attr-style="{{control.editor.config.style}}" placeholder="Accordion header text"></textarea>
         </div>
-        <div class="bs-accordion-body">
+        <div class="bs-accordion-body umb-grid umb-control">
+            <div class="bs-accordion-body-header umb-grid umb-control-bar">
+                Accordion Body
+            </div>
             <div ng-controller="Umbraco.PropertyEditors.Grid.RichTextEditorController as vm">
                 <div grid-rte
+                     rows="5"
                      configuration="model.config.rte"
-                     value="control.body"
+                     value="control.Body"
                      unique-id="control.$uniqueId"
                      on-link-picker-click="vm.openLinkPicker"
                      on-media-picker-click="vm.openMediaPicker"
                      on-embed-click="vm.openEmbed"
-                     on-macro-picker-click="vm.openMacroPicker"
-                     >
+                     on-macro-picker-click="vm.openMacroPicker">
                 </div>
 
                 <umb-overlay ng-if="vm.linkPickerOverlay.show"
@@ -47,13 +56,25 @@
 
             </div>
         </div>
-        <div class="bg-accordion-footer">
+        <div class="bs-accordion-footer umb-grid umb-control">
+            <div class="bs-accordion-footer-header umb-grid umb-control-bar">
+                Accordion Footer
+            </div>
             <textarea rows="1"
                       umb-auto-resize
-                      umb-auto-focus
                       class="textstring input-block-level" id="{{control.uniqueId}}_footer"
-                      ng-model="control.footer"
+                      ng-model="control.Footer"
                       ng-attr-style="{{control.editor.config.style}}" placeholder="Accordion footer text"></textarea>
+        </div>
+        <div class="bs-accordion-parent-id umb-grid umb-control">
+            <div class="bs-accordion-footer-header umb-grid umb-control-bar">
+                Accordion Parent
+            </div>
+            <textarea rows="1"
+                      umb-auto-resize
+                      class="textstring input-block-level" id="{{control.uniqueId}}_accordion_parent"
+                      ng-model="control.AccordionParent"
+                      ng-attr-style="{{control.editor.config.style}}" placeholder="CSS Selector For Accordion Parent"></textarea>
         </div>
     </div>
 </div>
