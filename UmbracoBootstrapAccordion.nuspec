@@ -20,7 +20,7 @@
             <dependency id="UmbracoCms" version="7.4.0" />
         </dependencies>
         <contentFiles>
-            <files include="**/*.*" buildAction="None" copyToOutput="true" />
+            <files include="**/*.*" copyToOutput="true" />
         </contentFiles>
     </metadata>
 	<!--<files>
