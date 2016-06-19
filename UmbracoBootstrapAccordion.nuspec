@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>UmbracoBootstrapAccordion</id>
+        <version>1.0.0</version>
+        <authors>mmichaels1010@gmail.com</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+		Editor for Umbraco grid that allows for easy creation of bootstrap callapsible panels / accordions. To work correctly, this plugin requires bootstrap 3 CSS/JS to be loaded into the view being rendered.
+		For grouped accordions, please ensure the accordions you wish to be grouped have a common ancestor that can be targetted via a css selector and have the 'panel-group' class applied.
+		</description>
+        <summary>Bootstrap 3 Accordion Plugin for Umbraco Grid Editor.</summary>
+        <releaseNotes>Initial version</releaseNotes>
+        <copyright>2016</copyright>
+        <serviceable>false</serviceable>
+        <dependencies>
+            <dependency id="UmbracoCms" version="7.4.0" />
+        </dependencies>
+    </metadata>
+	<files>
+        <file src="bs_accordion.controller.js" target="App_Plugins\BootstrapAccordion\bs_accordion.controller.js" />
+        <file src="bs_accordion.cshtml" target="App_Plugins\BootstrapAccordion\bs_accordion.cshtml" />
+		<file src="bs_accordion.css" target="App_Plugins\BootstrapAccordion\bs_accordion.css" />
+        <file src="bs_accordion.html" target="App_Plugins\BootstrapAccordion\bs_accordion.html" />
+        <file src="package.manifest" target="App_Plugins\BootstrapAccordion\package.manifest" />
+    </files>
+</package>
