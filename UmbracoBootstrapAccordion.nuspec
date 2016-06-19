@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package>
     <metadata>
         <id>UmbracoBootstrapAccordion</id>
         <title>Umbraco Bootstrap Accordion</title>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <authors>mmichaels1010@gmail.com</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>
@@ -19,12 +19,16 @@
         <dependencies>
             <dependency id="UmbracoCms" version="7.4.0" />
         </dependencies>
+        <contentFiles>
+            <files include="**/*.*" buildAction="None" copyToOutput="true" />
+        </contentFiles>
     </metadata>
-	<files>
+	<!--<files>
         <file src="bs_accordion.controller.js" target="Content\App_Plugins\BootstrapAccordion\bs_accordion.controller.js" />
         <file src="bs_accordion.cshtml" target="Content\App_Plugins\BootstrapAccordion\bs_accordion.cshtml" />
 		<file src="bs_accordion.css" target="Content\App_Plugins\BootstrapAccordion\bs_accordion.css" />
         <file src="bs_accordion.html" target="Content\App_Plugins\BootstrapAccordion\bs_accordion.html" />
         <file src="package.manifest" target="Content\App_Plugins\BootstrapAccordion\package.manifest" />
-    </files>
+    </files>-->
+
 </package>
