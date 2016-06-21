@@ -3,7 +3,7 @@
 <div class="panel panel-default">
     <div class="panel-heading">
         <h4 class="panel-title">
-            <a data-toggle="collapse" @AccordionHelper() href="#collapse-@Model.UniqueId">@Model.Header </a>
+            <a data-toggle="collapse" @AccordionHelper() href="#collapse-@Model.UniqueId" class="collapsed">@Model.Header </a>
         </h4>
     </div>
     <div id="collapse-@Model.UniqueId" class="panel-collapse collapse">
@@ -23,6 +23,6 @@
 {
 if (Model != null && Model.AccordionParent != null)
 {
-        @:data-parent="@Model.AccordionParent" class="collapsed"
+        @:data-parent="@Model.AccordionParent"
     }
 }
