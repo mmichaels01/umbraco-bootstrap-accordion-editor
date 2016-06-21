@@ -10,6 +10,10 @@ Easily create bootstrap accordions in the Umbraco Grid Editor
 
 [Nuget Project](https://www.nuget.org/packages/UmbracoBootstrapAccordion/1.1.0)
 
+### Install 
+
+[Umbraco Package](https://our.umbraco.org/projects/backoffice-extensions/bootstrap-accordion/)
+
 ### Usage
 
 Add the Bootstrap Accordion editor to the Grid Data Type of your choice by selecting a row configuration, and allowing all editors or adding the "Bootstrap Accordion" editor for the desired row.
@@ -20,6 +24,8 @@ Add the Bootstrap Accordion editor to the Grid Data Type of your choice by selec
 Add the bootstrap accordion editor to a row in the grid editor:
 
 ![Panel](http://i.imgur.com/VOB1FOV.png)
+
+Ensure Bootstrap CSS/JS is loaded onto the page that is rendering the accordion.
 
 ### Setting accordion groups
 
