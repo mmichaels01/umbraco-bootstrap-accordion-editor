@@ -1,6 +1,6 @@
 {
   "name": "UmbracoBootstrapAccordion",
-  "version": "1.0.0",
+  "version": "1.1.02",
   "description": "Easily create bootstrap accordions in the Umbraco Grid Editor",
   "license": "MIT",
   "author": {
