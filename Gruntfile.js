@@ -142,7 +142,7 @@ module.exports = function (grunt) {
     },
 
     clean: {
-      dist: '[object Object]',
+      dist: 'dist',
       test: 'test/assets'
     },
 
